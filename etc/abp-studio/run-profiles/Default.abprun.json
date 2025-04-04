@@ -1,0 +1,15 @@
+﻿{
+  "applications": {
+    "Test.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44304",
+      "path": "../../../src/Test.Web/Test.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "healthCheckEndpoint": "/health-status",
+      "healthUiEndpoint": "/health-ui",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}

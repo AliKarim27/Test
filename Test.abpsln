@@ -1,0 +1,55 @@
+{
+  "id": "67a3d01d-b78c-411c-85f3-3363ca8c216a",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "9.1.0",
+    "AbpStudio": "0.9.25",
+    "TargetDotnetFramework": "net9.0"
+  },
+  "modules": {
+    "Test": {
+      "path": "Test.abpmdl"
+    },
+    "Volo.Abp.BasicTheme": {
+      "path": "modules/Volo.Abp.BasicTheme/Volo.Abp.BasicTheme.abpmdl",
+      "folder": "Theme"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": []
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "0.9.25",
+    "tiered": "false",
+    "runInstallLibs": "true",
+    "useLocalReferences": "false",
+    "multiTenancy": "true",
+    "includeTests": "true",
+    "kubernetesConfiguration": "false",
+    "uiFramework": "mvc",
+    "mobileFramework": "none",
+    "distributedEventBus": "none",
+    "databaseProvider": "ef",
+    "runDbMigrator": "true",
+    "databaseManagementSystem": "mysql",
+    "separateTenantSchema": "false",
+    "createInitialMigration": "true",
+    "theme": "basic",
+    "themeStyle": "",
+    "publicWebsite": "false",
+    "socialLogin": ""
+  },
+  "folders": {
+    "items": {
+      "Theme": {}
+    }
+  }
+}
